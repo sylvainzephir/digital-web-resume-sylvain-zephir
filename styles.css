@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('#'); /* Add your background image here */
+  background-size: cover;
+  overflow: hidden;
+}
+
+.graffiti {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red; /* Initial graffiti color */
+  border-radius: 50%;
+  animation: fall 10s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh); /* Start from above the viewport */
+  }
+  100% {
+    transform: translateY(100vh); /* End below the viewport */
+  }
+}

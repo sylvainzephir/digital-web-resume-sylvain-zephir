@@ -1,0 +1,670 @@
+
+        <!DOCTYPE html> 
+        <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <title>Digital Resume</title>
+        <link href="css/custom.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+        <script src="anime.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+        </head>
+	<body>
+        <header>
+        <div class="logo">A Resume Beyond Paper – Interactive, Dynamic, and Engaging!</div>
+        <nav>
+            <ul>
+                <li><a href="https://www.seek.com.au/profile/sylvain-zephir-0G5DcEidRr">SEEK PROFILE<br>&nbsp;&nbsp;&nbsp;Let's Connect</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<nav class="dropdown-container">
+    <ul>
+        <li class="dropdown1">
+            <a href="biography" style="color: black;">My Biography</a>
+            <div class="dropdown1-content">
+                <p class="bio-text" style="position: relative; z-index: 1001;">
+                    "I am a passionate web developer with experience in creating dynamic websites. Alongside my tech skills, I have a deep love for cooking, which fuels my creativity. I excel at troubleshooting IT hardware issues and always seek innovative solutions and collaboration on exciting projects."
+                </p>
+            </div>
+        </li>
+    </ul> 
+</nav>
+
+
+        <div class="resume">
+        <!-- Sideway Avatar Section -->
+        <img id="avatar" src="./pictures/Sylvain-face.png" alt="Avatar"/>
+
+ <!-- Three Laser beam light moving in different direction -->
+        <div class="laser laser1"></div>
+        <div class="laser laser2"></div>
+        <div class="laser laser3"></div>
+        <div class="laser laser4"></div>
+
+        <div class="navbar">
+        <div class="dropdown">
+        <button class="dropbtn">
+        <i class="fa fa-caret-down"></i>
+        </button>
+
+        <div class="dropdown-content" style="left: 1.1em; top: 43em; min-width:3.5em;color: white; margin-right:1em;">
+        <a href="#" onclick="openFullscreen('https://www.ihg.com/')" style="color: white; text-decoration: none; background-color: 
+        rgba(0, 0, 1, 2); padding: 0.5em;">😊Connect😊</a>
+        <img src="./pictures/Logos/IHG.jpg" alt="Logo" style="display: block; margin-top: 0em; width: 7em; border: 4px solid orangered;
+        padding: 3px;">
+        </div>
+
+        <div class="dropdown-content" style="left: 1.1em; top: 53em; min-width: 3.5em; margin-right: 1em;">
+        <a href="#" onclick="openFullscreen('https://www.holidayinn.com/')" style="color: white; text-decoration: none; 
+        background-color: rgba(0, 0, 1, 2); padding: 0.5em;">😊Connect😊</a>
+        <img src="./pictures/Logos/Holiday-Inn.jpg" alt="Logo" style="display: block; margin-top: 0em; width: 7em; border: 4px solid 
+        orangered; padding: 3px;">
+        </div>
+
+        <div class="dropdown-content" style="left: 1.1em; top: 64em; min-width:3.5em;margin-right: 1em;">
+        <a href="#" onclick="openFullscreen('https://www.rydges.com/')"style="color: white; text-decoration: none; background-color: 
+        rgba(0, 0, 1, 2); padding: 0.5em;">😊Connect😊</a>
+        <img src="./pictures/Logos/Rydges.jpg" alt="Logo" style="display: block; margin-top: 0em; width: 7em; border: 4px solid 
+        orangered; padding: 3px;">
+        </div>
+        
+        <div class="dropdown-content" style="left: 1.1em; top: 75em; min-width:3.5em;margin-right: 1em;">
+        <a href="#" onclick="openFullscreen('https://www.starentertainmentgroup.com.au/')"style="color: white; text-decoration: none;
+        background-color: rgba(0, 0, 1, 2); padding: 0.5em;">😊Connect😊</a>
+        <img src="./pictures/Logos/STAR.jpg" alt="Logo" style="display: block; margin-top: 0em; width: 7em; border: 4px solid 
+        orangered; padding: 3px;">
+        </div>
+  
+        <div class="dropdown-content" style="align-content:center;">  
+        <a> What My Previous Employers Are Saying About Me</a>
+
+        </div>
+    </div>
+</div>
+   
+        <script>
+        function openFullscreen(url) {
+         var fullscreenWindow = window.open(url, '_blank', 'fullscreen=yes');}
+        </script>
+        
+<!-- Use any element to open the sidenav-Qualifications-link -->
+        <div class="openNav"  style="font-size:0.5em;cursor:pointer" onclick="openNav()"></div>
+        <strong><h3 class ="text-button"> DOWNLOAD CERTIFICATIONS</h3><strong>
+
+        <div id="mySidenav1" class="sidenav1">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> <br><br>
+        <a href="https://drive.google.com/file/d/1EVRYleEXUR8KetIL7ZbGoVAth1rfOlwF/view?usp=sharing">• Diploma in Business Studies<br>London Chamber of Commerce & Ind.</a>
+        <a href="https://drive.google.com/file/d/1QzVJp4OE9r2K5yy4gAERn_OLbO5EVhjg/view?usp=drive_link">• International Business Essentials <br>(University of London & Coursera)</a>
+        <a href="https://drive.google.com/file/d/1bxgiZGefwFUqOFq_zwvA7k4rKGgTe-_V/view?usp=sharing">• London Chamber of Comm Cert in Mgmt</a>
+        <a href="https://drive.google.com/file/d/1ihmMsq8GB8WlLTyw4I0ZubUcJ5BPN0c7/view?usp=drive_link">• IOSH Managing Safely - UK</a>
+        <a href="https://drive.google.com/file/d/1qYPY76VUUoqyvFNZZmysSZ7UJMat2k0A/view?usp=drive_link">• OSH Academy Professional Program</a>
+        <a href="https://drive.google.com/file/d/1Rl2RtuZOKdUgF_8GB1wage8fkUG_D2OX/view?usp=drive_link">• Health and Safety Professional Transcript</a>
+        <a href="https://drive.google.com/file/d/1KaLHmTP5CesmUYeX4_suWsk0bqMp3cwp/view?usp=sharing">• IOSH Working Safely - UK</a>
+        <a href="https://drive.google.com/file/d/1GOMb6houhwqFBaQwi5BAMzP5p-_QHaGE/view?usp=drive_link">• Managing Workplace Safely - MSBM UK</a>
+        <a href="https://drive.google.com/file/d/1mPizz8jHzdDVhhNsDiWdDQMoCVLtKtyp/view?usp=sharing">• Chartered Food Safety in Catering</a>
+        <a href="https://drive.google.com/file/d/1teW88nWIrZsDIanTXNU-W958anFRMP-k/view?usp=drive_link">• International ServSafe Food Safety</a>
+        <a href="https://drive.google.com/file/d/1SwKr4Y33LlpYMik9xkOHQ4OvyodI2S3T/view?usp=sharing">• CompTIA A+ Certified Professional</a>
+        <a href="https://drive.google.com/file/d/1RJh-hfWZR4xuMXWukJzwYbHQF-_iRmvI/view?usp=sharing">• IT Support Specialization from Google</a>
+        <a href="https://drive.google.com/file/d/1-XHUvN2N8XWn1e-IwRX-7EoVjIe5NSFe/view?usp=sharing">• Technician Cert in Engineering - UK</a>
+        <span onclick="openNav()"></span></center>
+
+        <script>
+        function openNav() {
+        document.getElementById("mySidenav1").style.transform = "translateX(0)"; 
+        }
+
+        function closeNav() {
+        document.getElementById("mySidenav1").style.transform = "translateX(-100%)"; 
+        }
+        </script></div>        
+
+
+
+ <!-- Popup element -->
+        <div class="popup" id="popup">
+        <span class="close" id="close-popup">&times;</span>
+        <img src="./pictures/Holiday-Inn-Award.png" class="popup-content" style="width: 20em; height:29em">
+        </div>
+
+        <script>
+            // Open the popup when the diamond is clicked
+            document.getElementById('open-popup').addEventListener('click', function(e) {
+              e.preventDefault();
+              document.getElementById('popup').style.display = 'block';
+            });
+
+            // Close the popup when the close button is clicked
+            document.getElementById('close-popup').addEventListener('click', function() {
+              document.getElementById('popup').style.display = 'none';
+            });
+          </script>
+
+<!-- First icon bar -->
+        <div class="icon-bar position1">
+        <a class="active" href="https://www.google.com/"><i class="fa fa-search"></i></a>
+        <a href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a>
+        <a href="https://twitter.com/i/flow/login"><i class="fa fa-twitter-square"></i></a>
+        <a href="https://www.facebook.com/login"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/accounts/login"><i class="fa fa-instagram"></i></a>
+        <a href="mailto:michelzephir71@gmail.com"><i class="fa fa-envelope"></i></a>
+        </div>
+
+<!-- Resume Container -->
+        <div class="resume-container">
+        <img src="./pictures/Digital Resume Sylvain.jpg" class="My-Resume" style="width: 84%; border: 7px solid grey;">
+
+<!-- NZ Map on Spinning Earth -->
+    <div class="earth-container">
+        <img src="./pictures/Earth.gif" class="Earth1">
+        <a href="https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-design.html">
+            <img src="./pictures/NZ-Map.png" class="NZ-Map" style="width: 20%;">
+        </a>
+    </div>
+    
+<!-- Certification Icon Bar -->
+        <div class="certification-bar">
+        <a href="https://qualifications.pearson.com/en/home.html"><img src="./Certification-Icons/LCCI.jpeg"></a>
+        <a href="https://iosh.com"><img src="./Certification-Icons/IOSH.jpeg"></a>
+        <a href="https://www.oshacademy.com"><img src="./Certification-Icons/OSHAcedemy.PNG"></a>
+        <a href="https://www.cieh.org/"><img src="./Certification-Icons/CIEH.png"></a>
+        <a href="https://www.comptia.org"><img src="./Certification-Icons/CompTIA.png"></a>
+        </div>
+    
+<!-- Food-Safety Icon Bar -->
+        <div class="Food-Safety-bar">
+        <a href="https://www.eatforhealth.gov.au/guidelines/australian-guide-healthy-eating">
+        <img src="./pictures/Food-Safety-Logo/Food-Manger.png"></a>
+        <a href="https://foodandwine.co.nz/"><img src="./pictures/Food-Safety-Logo/Food-Handler.png"></a>
+        <a href="https://www.worksafe.govt.nz/managing-health-and-safety/"><img src="./pictures/Food-Safety-Logo/Workplace.png"></a>
+        <a href="https://www.health.gov.au/topics/alcohol/about-alcohol/alcohol-laws-in-australia"><img src="./pictures/Food-Safety-Logo/Alcohol.png"></a>
+        <a href="https://www.mpi.govt.nz/food-safety-home/food-allergies-intolerances/"><img src="./pictures/Food-Safety-Logo/Allergens.png"></a>
+        </div>
+
+    
+<!-- Seal and Robot Section -->
+        <div class="seal-robot-container">
+        <a href="https://www.seek.com.au/profile/sylvain-zephir-0G5DcEidRr">
+        <img src="./pictures/Seal.gif" class="Seal" style="width: 9%;">
+        </a>
+        <a href="https://chatgpt.com/">
+        <img src="./pictures/Chat-Robot.gif" class="Chat-Robot">
+        </a>
+        <div id="robot-container" style="position: relative;">
+        <img src="./pictures/Robot.gif" class="Animated-Robot" id="robot">
+        </div>
+    </div>
+</div>
+        <script>
+        document.getElementById("robot").addEventListener("click", function() {
+        let speech = document.getElementById("speech");
+        let sound = document.getElementById("robotSound");
+
+        // Play Sound
+        sound.play();
+         });
+        </script>
+
+
+
+<!-- Container for both the flip-box and AI image -->
+        <div class="image-group">
+        <a class="AI-Head">        
+        <div class="flip-box">
+        <div class="flip-box-inner">
+        <div class="flip-box-front">
+        <img src="./pictures/AI-Head.gif" style="width:17em; height:17em; border: 4px solid limegreen;">
+        </div>
+        <div class="flip-box-back">
+        <img src="./pictures/Thank you.gif" style="width:17em; height:17em; border: 4px solid yellow;">        
+        </div>
+     </div>
+  </div>
+
+        <img src="./pictures/Future.gif" class ="Future"style="border: 4px solid orangered;">
+        <video class="Background-video" autoplay loop muted play>
+        <source src="./videos/Background-video.mp4" type="video/mp4"></video>
+
+<!-- Multicolour Welcome Message -->
+        <div class="Vertical-Text">
+        <span style="color: forestgreen;">T</span>
+        <span style="color: brown;">H</span>
+        <span style="color: blue;">E</span>
+        <br>
+        <span style="color: black;">F</span>
+        <span style="color: red;">U</span>
+        <span style="color: blue;">T</span>
+        <span style="color: yellow;">U</span>
+        <span style="color: green;">R</span>
+        <span style="color: purple;">E</span>
+        <br>
+        <span style="color: orangered;">I</span>
+        <span style="color: yellow;">S</span>
+        <br>
+        <span style="color: black;">N</span>
+        <span style="color: red;">O</span>
+        <span style="color: yellow;">W</span>
+        </div>
+
+<!--Animated gif Hello-Welcome-QR Code Download and Butterflies Image-->
+        <img src="./pictures/butterfly1.gif" class ="Butterfly1">
+        <img src="./pictures/butterfly2.gif" class ="Butterfly2"> 
+      
+        
+        <a href="https://chatgpt.com/">
+        <img src="./pictures/Chat-Robot.gif" class ="Chat-Robot"></a>
+        <div id="robot-container" style="position: relative;">
+        <img src="./pictures/Robot.gif" class="Animated-Robot" id="robot">
+        <div class="speech-bubble" id="speech">Beep Boop! Bienvenue! 🤖</div>
+        <audio id="robotSound" src="./sounds/French.mp3"></audio>
+        </div>
+
+        <script>
+        document.getElementById("robot").addEventListener("click", function() {
+        let speech = document.getElementById("speech");
+        let sound = document.getElementById("robotSound");
+
+        // Play Sound
+        sound.play();
+         });
+        </script>
+
+
+        <div class="content-wrapper" style="display: flex; flex-direction: column; align-items: center; padding: 10px;">
+<!-- First Header -->
+
+        <div class="header-container">
+        <img src="./pictures/deco-header.jpg" class="header">
+        <div class="sparkle"></div>
+        </div>
+
+<!-- First Introduction Banner -->
+        <div class="banner-container">
+        <div class="fantastic">
+        <div data-tilt class="inner"></div>
+        </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+<!-- Enlighted Vision Seal -->
+        <div class="seal-container">
+        <img src="./pictures/Mechanic.png" class="Mechanic-Seal1" style="width: 15%; cursor: pointer;">
+        <img src="./pictures/Mechanic.png" class="Mechanic-Seal2" style="width: 9%; cursor: pointer;">
+        <img src="./pictures/Mechanic.png" class="Mechanic-Seal3" style="width: 6%; cursor: pointer;">
+        <audio id="cogwheelsound" src="./Sounds/Cogwheels.mp3"></audio>
+        </div>
+
+<!-- Various Images Container -->
+        <div class="image-container">
+        <img src="./pictures/kreole.png" class="kreole" width="19.5%">
+        <img src="./pictures/Strange.gif" class="Strange" width="20%">
+        <img src="./pictures/diamond.webp" class="Diamond-Top" alt="Spinning Diamond-Top">
+        <img src="./pictures/Welcome.gif" class="Welcome" width="30%">
+        </div>
+
+<!-- PAYPAL FORM + QR CODE SECTION -->
+        <div class="donate-container">
+        <form action="https://www.paypal.com/ncp/payment/EBUPN7T2WGK9A" method="post" target="_blank">
+        <input class="pp-EBUPN7T2WGK9A" type="submit" value="Pay Now" />
+        </form>
+        <img src="./pictures/QR-DONATE.png" alt="Donate via QR Code" class="qr-code"/>
+        </div>
+
+<!-- SECOND DONATE BUTTON -->
+        <div class="donate-btn-container">
+        <a href="https://www.paypal.com/ncp/payment/EBUPN7T2WGK9A" target="_blank" class="donate-btn">
+        <span>DONATE</span> 
+        <span class="donate-text">for creative thinking.<br>Thanks!</span>
+        </a>
+        </div>
+
+<!-- Download Resume Button -->
+        <div class="DOWNLOAD-RESUME">
+        <a href="https://drive.google.com/file/d/1F3YLxx5M3YgaJJczx5XSjAOWuOJ9-Feo/view?usp=sharing">
+        <img src="./pictures/Download-Resume.png" style="width: 11em; border: 2px solid transparent;">
+        </a>
+        </div>
+
+<!-- Bird-Human-Artwork -->
+        <div class="artwork-container">
+        <img src="./pictures/Bird-Artwork.png" class="Artwork" style="width: 7%;">
+        </div>
+        </div>
+
+<!-- Wrapper for Highlight and all related elements -->
+        <div class="highlight-wrapper">
+<!-- Highlight Banner-Grouping division for all elements -->
+        <img src="./pictures/Highlight.png" class="Highlight" alt="Highlight Banner">
+        <img src="./pictures/ClickMe.gif" class="ClickMe">
+        <div class="image-container">
+
+<!-- Ring of Fire clickable -->
+        <a href="#" id="open-popup">
+        <img src="./pictures/Ring-of-fire.gif" class="Ring-of-fire" alt="Ring of Fire">
+
+        <img src="./pictures/click-here.gif" class="Click-here" alt="Click-here">
+        </a>
+    </div>
+
+<!-- Experience Section Positioned -->
+    <div class="side-text" id="experience-text">
+        <h2>Experience</h2>
+        <p>Throughout my career, I have acquired a wealth of knowledge and skills through diverse work experiences. Each role has equipped me with the ability to tackle challenges effectively and contribute meaningfully to my team. I am eager to bring this expertise to a new, dynamic position where I can continue to grow and make a positive impact.</p>
+    </div>
+</div>
+
+
+<!--Background Planets Container -->
+        <div class="planets-container">
+        <img src="./pictures/Green-Planet.png" class="Green-Planet">
+        <img src="./pictures/Planet1.png" class="Planet1">   
+        <img src="./pictures/Planet2.png" class="Planet2">
+        <img src="./pictures/Planet3.png" class="Planet3">
+        <img src="./pictures/Planet4.png" class="Planet4">
+        <img src="./pictures/Planet5.png" class="Planet5">
+        <img src="./pictures/Earth.gif" class="Earth">
+        <img src="./pictures/Planet6.png" class="Planet7">
+        </div>
+
+<!-- Abstract Banner -->
+        <img src="./pictures/Abstract.png" class="Abstract-banner" style="width: 11%;">
+
+
+<!-- Big Banner of Alien Creativity Connection -->
+        <img id="creativityImage" class="Big-banner" src="./pictures/Creativity.png" alt="Creativity">
+        <audio id="cogwheelsound" src="./Sounds/Cogwheels.mp3"></audio>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("creativityImage").addEventListener("click", function () {
+                // Toggle glow effect
+                this.classList.toggle("glow");
+
+                // Play sound
+                var sound = document.getElementById("cogwheelsound");
+                sound.currentTime = 0;
+                sound.play().catch(error => console.log("Audio error:", error));
+            });
+        });
+        </script>
+
+<!-- Group Container for Video, Call Banner, and Eye Image -->
+        <video class="my-digital-video" autoplay loop controls onclick="toggleFullscreen(this)">
+        <source src="./videos/Chef in action_ Animation.mp4" type="video/mp4">
+        </video>
+
+<!-- Flashing Alert Banner with Call and Video Options -->
+        <div class="alert flash-alert text-center">
+        <strong>
+        <a href="https://wa.me/64211692256" class="call-link">Call Me</a>
+        <span> or </span>
+        <a href="tel:+64211692256" class="video-call-link">Video Call Me</a>
+        </strong>
+        </div>
+
+<!-- Display of Eye Logo -->
+        <img src="./pictures/Eye.png" id="eyeImage" class="Eye" alt="Eye Logo">
+        <audio id="mysterySound" src="./Sounds/mystical-whoosh.mp3"></audio>
+        </div>
+
+        
+        <script>
+        document.getElementById("eyeImage").addEventListener("click", function() {
+        // Toggle glow effect
+        this.classList.toggle("glow");
+
+        // Play sound
+        var sound = document.getElementById("mysterySound");
+        sound.play();
+        });
+        </script>
+
+<!-- Ice-Mixed Coffee Video -->
+        <video class="Ice-mixed-Coffee" autoplay loop controls style="border: 2px solid skyblue; padding: 3px; 
+        background-color: black;">
+        <source  src="./videos/Ice-mixed-Coffee.mp4" type="video/mp4"></video>
+<!--Hologram effect aimation for text paragraph -->
+        <div class="hologram"></div>
+<!-- Audio voice recording with separate play and pause buttons -->
+        <div class="audio-container">
+        <audio id="audio" src="./videos/Voice-recording-Presentation.mp3"></audio>
+        <button id="play">▶️</button>
+        <button id="pause">⏸︎</button>
+        <button id="restart">⏮️</button>
+        <span id="audioTime">0:00</span>
+        </div>
+<!--Hologram effect aimation -->
+        <div class="hologram-box"></div>
+
+ <!-- Skill Performace -->
+        <section class="skills-section">
+        <h2 style="color: blueviolet; border: 3px solid orangered; padding: 1px; border-radius: 8px; background-color: black;">My Skills </h2>
+        
+<!-- Skill 1 -->
+        <div class="skill-container">
+        <label for="OHS-skill">Managing Safety</label>
+        <div class="progress-bar">
+        <div class="progress" style="width: 94%;">94%</div>
+        </div></div>
+
+ <!-- Skill 2 -->
+        <div class="skill-container">
+        <label for="cooking-skill">Food Preparation</label>
+        <div class="progress-bar">
+        <div class="progress" style="width: 85%;">85%</div>
+        </div></div>
+
+ <!-- Skill 3 -->
+        <div class="skill-container">
+        <label for="Customer-skill">Customer Service</label>
+        <div class="progress-bar">
+        <div class="progress" style="width: 75%;">75%</div>
+        </div></div>
+
+<!-- Skill 4 -->
+        <div class="skill-container">
+        <label for="It-Support-Skill">IT Support</label>
+        <div class="progress-bar">
+        <div class="progress" style="width: 96%;">96%</div>
+        </div></div>
+        </section>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        function animateSkills() {
+        // Reset opacity to ensure visibility
+        document.querySelector(".skills-section").style.opacity = "1";
+
+        // Animate the entire skills section
+        anime({
+            targets: '.skills-section',
+            translateY: [-50, 0], // Slide up from below
+            opacity: [0, 1], // Fade in
+            easing: 'easeOutExpo',
+            duration: 1000
+        });
+
+        // Animate each skill appearing with stagger
+        anime({
+            targets: '.skill-container',
+            translateX: [-50, 0], // Slide from left
+            opacity: [0, 1],
+            easing: 'easeOutExpo',
+            delay: anime.stagger(100)
+        });
+
+        // Animate progress bars filling
+        anime({
+            targets: '.progress',
+            width: [0, function (el) { return el.style.width; }], // Expand from 0% to defined width
+            easing: 'easeInOutQuad',
+            duration: 1500,
+            delay: anime.stagger(700)
+        });
+        }
+
+// Observe when the skills section enters the viewport
+        const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateSkills();
+                 }
+             });
+        }, { threshold: 0.3 }); // Trigger when 30% of the section is visible
+
+        observer.observe(document.querySelector('.skills-section'));
+        });
+        </script>
+
+       
+<!-- Testimonials - Referees from previous employers -->     
+        <section class="testimonials">
+        <p class="Text-Header" style="color:blueviolet; font-family:'Roboto', serif; font-size: 2em; top:270em; text-align: center; 
+        text-shadow: 5px 5px 10px gold;">Click on Business Card to access Website
+        <div class="testimonial-wrapper">
+        
+        <div class="testimonial" style="background-image: url('./pictures/BACK/Marble1.jpg');border: 3px solid orangered;">
+        <a href="https://www.holidayinn.com/" target="_blank">
+        <img src="./pictures/Logos/Holiday-Inn.jpg" alt="Holiday Inn Logo" class="logo" style="height:2em">
+        <div class="testimonial-text-container">
+        <h5>As a key member of our team, Sylvain brought a positive <br>attitude and strong work ethic that inspired others. His<br> commitment to excellence and ability to handle challenges <br> with grace make him an invaluable asset to any employer.</h5>
+        </a></div>
+        <cite>• Deane Palmer (General Manager) •<br>Holiday Inn - IHG<br>788 Hay Street Perth 6000</cite></div>
+        
+        <div class="testimonial"style="background-image: url('./pictures/BACK/Marble2.jpg');border: 3px solid orangered;">
+        <a href="https://www.ihg.com/" target="_blank">
+        <img src="./pictures/Logos/IHG.jpg" alt="IHG Logo" class="logo" style="height:2em">
+        <div class="testimonial-text-container">
+        <h5>During Sylvain's tenure at our hotel, he has consistently<br> demonstrated exceptional dedication and professionalism.<br> His contributions significantly enhanced our guest <br>experience, and I recommend him for future opportunities.</h5>
+        </a></div>
+        <cite>• Matt Coates (Executive Sous Chef) •<br>Intercontinental on Rialto<br>495 Collins St, Melbourne 3000</cite></div>
+        
+        <div class="testimonial"style="background-image: url('./pictures/BACK/Marble3.jpg');border: 3px solid orangered;">
+        <a href="https://www.rydges.com/" target="_blank">
+        <img src="./pictures/Logos/Rydges.jpg" alt="Rydges Logo" class="logo" style="height:2em">
+        <div class="testimonial-text-container">
+        <h5>I had the pleasure of working alongside Sylvain Zephir<br>at our hotel, where he showcased outstanding skills in <br>customer service and teamwork. I would not hesitate to <br> recommend him for any position, as he is sure to excel.</h5>
+        </a></div> 
+        <cite>• Rick Fowden (Executive Chef) • <br>Rydges Central Sydney<br>28 Albion St, Surry Hills NSW 2010</cite></div>
+
+
+        <div class="testimonial"style="background-image: url('./pictures/BACK/Marble4.jpg');border: 3px solid orangered;">
+        <a href="https://harelmallac.com/" target="_blank">
+        <img src="./pictures/Logos/Harel_Mallac_logo.jpeg" alt="Harel Mallac" class="logo"style="height:2em">
+        <div class="testimonial-text-container">
+        <h5>During Sylvain was responsible for the IT sales and <br>technical division of ATB Ltd. He has proved to be a <br>hard and keen worker knowing very well his subject. I <br>have no objection to recommending him as an IT person."</h5>
+        </a></div>    
+        <cite>• Cyril Espitalier Noel • <br>Sales Manager-ATB Ltd<br>Harel Mallac Group</cite></div>
+
+
+        <div class="testimonial"style="background-image: url('./pictures/BACK/Marble5.jpg');border: 3px solid orangered;">
+        <a href="https://www.crn.com.au/tag/vantex" target="_blank">
+        <img src="./pictures/Logos/Data-Logic_logo.png" alt="Data-Logic_logo" class="logo" style="height:2em">
+        <div class="testimonial-text-container">  
+        <h5>Sylvain Zephir joined Vantex Technology Distribution <br> in August 2005 as an Electronic Technician on a full-time <br> basis. His main responsibilities were to perform efficient<br> and methodical repair on our products.</h5>
+        </a></div>
+        <cite>• Louis George (Service Manager) •<br>Vantex Distribution-Provenco Group<br>Auckland, NZ</cite></div>
+        </div>
+        </section>
+
+<!-- Google Badge image and link  --> 
+        <div class="badge-section" style="top: 127em; left: 67.1em;">
+        <a href="https://www.credly.com/badges/dff97215-215f-479f-821b-dda67e3eb19d/public_url" target="_blank">
+        <center><img src="./pictures/Google-badge.png" alt="Google IT Support Badge" class="badge-image"></a></div><br>
+        
+        <div class="badge-section" style="top: 140em; left: 64.5em;"><h6>Those who earn the Google IT Support Certificate have completed five-courses, developed by Google, that include hands-on, practice-based assessments and are designed to prepare them for entry-level roles in IT support. They are competent in skills, including troubleshooting hardware issues, helpdesk customer service, networking, operating systems, system administration, and security. </h5>
+        </div>
+
+<!-- Google IT Support Click button  -->
+        <div class="dropdown-content" style="top: 124em; left: 65.4em;" >  
+        <a href="#" onclick="openFullscreen('https://www.credly.com/badges/dff97215-215f-479f-821b-dda67e3eb19d/public_url')">Google IT Support </a>
+        </div>
+
+        <div class="Timeline">
+        <div class="timeline-block">
+        <h3>2021 - 2024</h3>
+        <p><strong>Position:</strong>Upskilling </p>
+        <p><strong>Responsibilities:</strong> 
+        <ul>
+        <li>Pursued studies in IT skills post-pandemic.</li>
+        <li>Updated knowledge on food safety course.</li>
+        <li>Completed training in OHS protocols.</li>
+        <li>Working on HTML.CSS-Java Coding projects.</li></ul></p>
+        </div>
+
+        <div class="timeline-block">
+        <h3>2015 - 2019</h3>
+        <p><strong>Position:</strong> Kitchen Assistant</p>
+        <p><strong>Responsibilities:</strong> 
+        <ul>
+        <li>Assisted Chef during busy shift operations.</li>
+        <li>Managed food deliveries and inventory.</li>
+        <li>Planning and scheduling dialy cleaning.</li>
+        <li>Logged daily records of fridge temperatures.</li>
+        </ul>
+        </p></div>
+        
+        <div class="timeline-block">
+        <h3>2012 - 2013</h3>
+        <p><strong>Position:</strong> Assistant Manager at Mc Donald's</p>
+        <p><strong>Responsibilities:</strong> 
+        <ul>
+        <li>Managed a profitable restaurant operation.</li>
+        <li>Ensured Quality, Service, and Cleanliness.</li>
+        <li>Maintained high customer satisfaction.</li>
+        <li>Taking disabled person's orders</li>
+        </ul>
+        </p></div>  
+        </div>
+
+        <div class="Timeline-Additional">
+        <div class="timeline-block2">
+        <h3>2015 - 2018</h3>
+        <p><strong>Position:</strong> Monitor Technician</p>
+        <p><strong>Responsibilities:</strong> 
+        <ul>
+        <li>Conducted warranty repairs on LCD monitors.</li>
+        <li>Fixing power boards and LCD panels.</li>
+        <li>Performed swap testing on products repairs</li>
+        <li>Prepared detailed reports or repairs.</li>
+        </ul>
+        </p></div>
+
+        <div class="Timeline-Additional-More">
+        <div class="timeline-block3">
+        <h3>2012 - 2014</h3>
+        <p><strong>Position:</strong> Electronic Technician</p>
+        <p><strong>Responsibilities:</strong> 
+        <ul>
+        <li>Troubleshot and repaired inverters boards at the component level on LCD monitors.</li>
+        <li>Serviced Magellan PSC scanner & POS printers.</li>
+        <li>Diagnosed and replaced faulty boards.</li>
+        </ul>
+        </p>
+      </div> 
+   </div>    
+ </div> 
+     
+
+<!-- Footer banner image  --> 
+        <div class="footer"></div>
+        </body>
+        </html>
+        <script src="app.js"></script>
+        <script src="script.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>   
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/ie10-viewport-bug-workaround.js"></script>
+        <script src="js/holder.min.js"></script>
+        </html>
+        </body>
+
+

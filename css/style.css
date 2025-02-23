@@ -1,0 +1,117 @@
+body {
+    font:arial, sans-serif;
+    margin: 0;
+    background-color:red; 
+}
+
+#narbar{
+    width:50%;
+    background-color:blueviolet;
+    font-weight: bold;
+}
+
+    ul{
+        list-style: none;
+        margin:0;
+        display:flex;
+        justify-content: flex-end;
+        align-items: centre;
+        padding:0;
+    }
+
+    li a::after{
+     content: ;
+     position: absolute;
+     display: block;
+     height:0.4cm;
+     width: 100%;
+     background-color:var(--red);
+     bottom: -1em;
+     transition: all ease=in-out 100ms;
+    }
+    li a:hover::after{
+        width: 60%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:white;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 430px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 400px;  
+        padding: 40px;  
+        background: turquoise;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: black;  
+    padding: 40px;  
+}  
+label{  
+    color: black;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 15px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 15px;  
+      
+}  
+#log{  
+    width: 100px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 10px;  
+    padding-left: 7px;  
+    color: red;  
+  
+  
+}  
+span{  
+    color: black;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: whitesmoke;  
+}  
