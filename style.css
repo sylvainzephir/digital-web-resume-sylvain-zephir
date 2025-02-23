@@ -419,8 +419,8 @@
 
                 .DOWNLOAD-RESUME {
                             position: absolute; 
-                            top: 14em; 
-                            right: 4em;
+                            top: 50.4em; 
+                            left: 43em;
                             z-inde: 3;
                             animation: flash 1s infinite;
                             }
@@ -825,7 +825,7 @@
                             left: 14.5em;
                             height:29em;
                             width: 51.6em;
-                            background-image: url(./pictures/fantastic.gif);
+                            background-image: url(./pictures/fantastic.jpg);
                             background-size: cover;
                             background-position: centr;
                             position: relative;
@@ -1003,8 +1003,8 @@
                 
                 .qr-code {
                     position: absolute;
-                          left: 39em;
-                          top: 31em;
+                          right: 2em;
+                          top: 8em;
                           width: 5.7em;
                           height: auto;
                           z-index: 4;
@@ -1012,8 +1012,8 @@
                           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
                           }
                 .pp-EBUPN7T2WGK9A {position: absolute;
-                          left: 39em;
-                          top: 29em;
+                          right: 2em;
+                          top: 13.8em;
                           text-align: left;
                           border: none;
                           border-radius: 0.25rem;
@@ -1026,6 +1026,7 @@
                           font-family: "Helvetica Neue", Arial, sans-serif;
                           font-size: 1rem;
                           cursor: pointer;
+                          z-index: 9999;
                           animation: flash 1s infinite;
                           }
 
@@ -1037,8 +1038,8 @@
 
                 .donate-btn {
                           position: absolute;
-                          top: 47.5em;
-                          left: 64.5em;
+                          top: 12.5em;
+                          left: 93em;
                           height: 5em;
                           text-align: center;
                           display: flex;
@@ -1281,8 +1282,8 @@
 
                 .Diamond-Top {
                             position: absolute;
-                            top: 21.7em;
-                            left: 53.3em;
+                            top: 8.7em;
+                            left: 57em;
                             z-index: 4;
                             width: 5em;
                             height: auto;
